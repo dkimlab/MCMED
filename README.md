@@ -103,6 +103,7 @@ Use the provided split_*.csv files to ensure reproducible training and evaluatio
 
 * **Random split**: Generally used for broad generalization.
 * **Chronological split**: More realistic for testing temporal generalizability, as it simulates prospective evaluation.
+* **Custom split**: To create your custom data split, please use the MRN/CSN identifiers rather than attempting a chronological split, as the dates have been randomly shifted (with only seasonality preserved — meaning if the original date was in winter [January-March], spring [April-June], summer [July-September], or fall [October-December], the shifted date will remain within the same season).
 
 ## Usage Suggestions
 
